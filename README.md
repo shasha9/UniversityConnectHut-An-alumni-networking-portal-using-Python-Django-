@@ -7,5 +7,7 @@ This project focuses on building a platform for an organization where the alumni
 
 ## OBJECTIVES
 1.Establishing a strong link between present students, faculties and alumni to improve the overall quality of the institution.
+
 2.Building a knowledge sharing platform in the form of a blog where users can post blogs regarding academics, cultural and placement activities.
+
 3.To make an interactive web application live i.e. hosting on an online server by making it   accessible to any user on any platform.
