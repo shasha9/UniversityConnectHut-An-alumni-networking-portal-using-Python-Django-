@@ -18,3 +18,16 @@ In this project, we are going to make an online platform where the students of f
 Alumni of that college can visit their college portal and can contact the students of about the vacancies for the intern as well as for the full-time job. Along with this portal, we are also going to merge a blogging platform more or less similar to Quora, medium etc. on which the faculties or several student clubs can engage with the students and pass the required information regarding the various events. Registered users on this platform can also post blogs related to trending technologies and their fields of interest. Other users can like, comment and share their views.
 
 With the help of front-end (HTML, CSS, Bootstrap) and back-end technology (Python Django) we are providing a common interactive platform that can ease the work of placement bodies and career services of a university.
+
+## SCREENSHOTS
+## Homepage-
+![](images/Picture1.png)
+
+## Comment Page-
+![](images/Picture2.png)
+
+## Add Comments-
+![](images/Picture3.png)
+
+## List of active comments-
+![](images/Picture4.png)
