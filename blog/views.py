@@ -5,7 +5,7 @@ from .forms import CommentForm
 
 class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1).order_by('-created_on')
-    template_name = 'index.html'
+    template_name='index.html'
 
 #class PostDetail(generic.DetailView):
 #    model = Post
@@ -13,13 +13,13 @@ class PostList(generic.ListView):
 
 
 def post_detail(request, slug):
-    template_name = 'post_detail.html'
+    template_name ='post_detail.html'
     post = get_object_or_404(Post, slug=slug)
-    comments = post.comments.filter(active=True)
-    new_comment = None
+    comments =post.comments.filter(active=True)
+    new_comment=None
     # Comment posted
-    if request.method == 'POST':
-        comment_form = CommentForm(data=request.POST)
+    if request.method=='POST':
+        comment_form=CommentForm(data=request.POST)
         if comment_form.is_valid():
 
             # Create Comment object but don't save to database yet
